@@ -5,6 +5,13 @@
 		<link rel="import" href="elements/audio-node.html">
 	</head>
 	<body>
-		<audio-node></audio-node>
+		<audio-context>
+			<oscillator-node connectsTo="myGain">
+				<frequency-param>261</frequency-param>
+			</oscillator-node>
+			<gain-node id="myGain" connectsTo="destination">
+				<gain-param>.2</gain-param>
+			</gain-node>
+		</audio-context>
 	</body>
 </html>
