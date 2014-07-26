@@ -1,0 +1,17 @@
+{
+  "name": "WebAudioElements",
+  "version": "0.0.0",
+  "homepage": "https://github.com/uber5001/WebAudioElements",
+  "authors": [
+    "Scott Little <uber5001@gmail.com>"
+  ],
+  "description": "A collection of polymer elements for the web audio api nodes.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
