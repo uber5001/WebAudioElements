@@ -2,14 +2,14 @@
 <html>
 	<head>
 		<script src="bower_components/platform/platform.js"></script>
-		<link rel="import" href="elements/audio-node.html">
+		<link rel="import" href="elements/all.html">
 	</head>
 	<body>
 		<audio-context>
-			<oscillator-node connectsTo="myGain">
+			<oscillator-node connect="myGain">
 				<frequency-param>261</frequency-param>
 			</oscillator-node>
-			<gain-node id="myGain" connectsTo="destination">
+			<gain-node id="myGain" connect="destination">
 				<gain-param>.2</gain-param>
 			</gain-node>
 		</audio-context>
